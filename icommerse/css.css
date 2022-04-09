@@ -12,17 +12,18 @@
     align-items: center;
 }
 
-#logo{
-    color: red;
-    display: flex;
-}
-
 #topbar_btn{
     color: black;
     display: flex;
     align-items: center;
-    
-   
+    margin-right: 8px;
+    justify-content: space-between;
+      
+}
+
+#logo{
+    color: red;
+    display: flex;
 }
 
 #lang{
