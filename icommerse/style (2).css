@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#topbar{
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+   height: 8vh;
+}
+#topbar_btn{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.fa-regular{
+    margin-right: 4px;
+}
+#curr, #lang{
+    margin-right: 8px;
+    border: none;
+    outline: none;
+}
+ul{
+    display: flex;
+}
+ul>li{
+    list-style: none;
+    margin-right:16px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical{
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    margin-right: 12px;
+}
+#navbar{
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar-logo{
+    text-align: right;
+    color: rgb(199, 15, 15);
+}
+#searchbar{
+    border: 1px solid rgb(199, 15, 15);
+    display: flex;
+    align-items: center;
+    /* height: 6vh; */
+}
+#categories, #search{
+    border: none;
+    outline: none;
+    height: 7vh;
+    padding-left: 4px;
+}
+#search{
+    width: 400px;
+    
+}
+#categories{
+    width: 130px;
+}
+#navbar-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar-ul>i{
+    margin-right: 4px;
+}
+#navbar-ph{
+    margin-right: 8px;
+    
+}
+.navbar-ul-li{
+    display: flex;
+    flex-direction: column;
+}
